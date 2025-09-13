@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+</head>
+<body class="dark-theme">
+  <header id="header">
+    <div class="logo">
+      <img src="assets/images/logo.svg" alt="">
+    </div>
+    <div class="mode">
+      <div class="mode-content">
+        <button id="lightBtn" class="toggle-btn"><img src="assets/images/icon-sun.svg" alt=""></button>
+        <button id="darkBtn" class="toggle-btn"><img src="assets/images/icon-moon.svg" alt=""></button>
+      </div>
+      
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="list">
+      <span class="exlist">Extensions List</span>
+      <div class="list-states">
+        <button id="allBtn" class="btn light-btn">All</button>
+        <button id="activeBtn" class="btn light-btn">Active</button>
+        <button id="inactiveBtn" class="btn light-btn">Inactive</button>
+      </div>
+    </div>
+
+    <div class="extensions">
+      <div class="box">
+        <div class="box-title"></div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/JiggytheDev/">JiggytheDev</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
